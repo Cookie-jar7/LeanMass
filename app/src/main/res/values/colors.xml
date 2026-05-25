@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1565C0</color>
+    <color name="primary_light">#42A5F5</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="bg_light">#F5F7FA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green_satisfactory">#2E7D32</color>
+    <color name="orange_warning">#E65100</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+</resources>

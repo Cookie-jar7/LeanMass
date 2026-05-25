@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="#1E293B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iv_status_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Statut" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01/01/2024 12:00"
+                android:textSize="12sp"
+                android:textColor="#94A3B8" />
+
+            <TextView
+                android:id="@+id/tv_lbm_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LBM: 55.00 kg"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:id="@+id/tv_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poids: 75.0 kg | Taille: 175.0 cm | Sexe: Homme"
+                android:textSize="12sp"
+                android:textColor="#94A3B8"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/tv_result_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Satisfaisant"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_delete"
+            android:contentDescription="Supprimer"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="#EF4444"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
